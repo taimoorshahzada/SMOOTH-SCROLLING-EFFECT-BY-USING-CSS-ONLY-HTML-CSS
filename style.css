@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #161616;
+    font-family: 'Meltland Demo', 'Monument';
+    min-height: 200vh;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+p{
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    width: 100px;
+    margin: 0 50px;
+    padding: 5px 5px;
+    background-color: white;
+    color: tomato;
+}
+h1,
+p{
+    margin: 50px 50px;
+}
